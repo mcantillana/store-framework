@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "slider-layout#home",
       "flex-layout.row",
       "shelf"
     ]
@@ -17,6 +18,7 @@
       "image#major-appliance"
     ]
   },
+
 
   "image#electronics": {
     "props": {
@@ -37,6 +39,26 @@
       "isFullModeStyle": true,
       "headline": "Time to rethink your kitchen",
       "callToActionText": "Discover",
+      "textPosition": "center"
+    }
+  },
+
+  "info-card#1": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  
+  "info-card#2": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
       "textPosition": "center"
     }
   }
