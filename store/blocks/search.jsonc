@@ -49,11 +49,6 @@
   "gallery": {
     "blocks": ["product-summary.shelf"]
   },
-  "product-summary.shelf": {
-    "children": [
-      "sku-selector"
-    ]
-  },
   "flex-layout.row#top": {
     "children": [
       "total-products.v2",
