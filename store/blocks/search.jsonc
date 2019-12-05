@@ -51,7 +51,7 @@
   },
   "product-summary.shelf": {
     "blocks": [
-      "product-summary-sku-selector"
+      "sku-selector"
     ]
   },
   "flex-layout.row#top": {
