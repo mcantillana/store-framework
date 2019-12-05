@@ -50,7 +50,7 @@
     "blocks": ["product-summary.shelf"]
   },
   "product-summary.shelf": {
-    "blocks": [
+    "children": [
       "sku-selector"
     ]
   },
