@@ -31,7 +31,8 @@
   "flex-layout.col#filter": {
     "children": ["filter-navigator.v3"],
     "props": {
-      "blockClass": "filterCol"
+      "blockClass": "filterCol",
+      "width": "grow"
     }
   },
   "flex-layout.col#search": {
@@ -47,6 +48,11 @@
   },
   "gallery": {
     "blocks": ["product-summary.shelf"]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-sku-selector"
+    ]
   },
   "flex-layout.row#top": {
     "children": [
